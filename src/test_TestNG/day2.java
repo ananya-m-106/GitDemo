@@ -3,6 +3,8 @@ package test_TestNG;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class day2 {
 
 	@Test(enabled = true)
@@ -20,5 +22,6 @@ public class day2 {
 	public void APILoginCarLoan(String URL) {
 		System.out.println("API Login Car");
 		System.out.println(URL);
+		System.out.println("Merge change to Git");
 	}
 }
